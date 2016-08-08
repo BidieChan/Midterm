@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+    background-image: url('img/bg.jpg');
+    background-attachment: fixed;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 100%;
+    margin-left: 0;
+    text-align: left;
+    background-color: black;
+  
+}
+
+.a {
+    text-decoration: none;
+}
+.a:link a:visited {
+    background-color: yellow;
+}
+.a.hover, a:active {
+    background-color: yellow;
+    color: black;
+}
+
+.body {
+    margin: 0 auto;
+    width: 70%;
+    background-color: black;
+}
+
+.imgHeader {
+    width: 70%;
+}
+.mainHeader img {
+    width: 10%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.mainHeader nav {
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 0;
+    margin-top: 0; 
+}
+
+.mainHeader nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainHeader nav ul li{
+    float: left;
+    display: inline;
+}
+
+.mainHeader nav a:link, .mainHeadr nav a:visited{
+    color: black;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, 
+.mainHeader nav  .active a:link, .mainHeader nav.active a.visited{   
+    background-color: yellow;
+    text-shadow: none;
+}
+
+.mainHeader nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.maincontent {
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.content {
+    width: 70%;
+    float: left;
+}
+
+.topleftbar {
+    width: 23%;
+}
+
+.bottomleftbar {
+    width: 23%;
+}
+
+.topcontent {
+    width: 70%;
+    float: left;
+}
+
+.bottomcontent {
+    width: 70%;
+    float:left;
+}
+
+.mainfooter {
+    width:25%;
+    float:left;
+    
+}
